@@ -1,0 +1,105 @@
+/* MENU BAR - HIGHLIGHT MENU TAB WHEN HOVERING */
+
+
+a:link,a:visited
+
+{
+color:black;
+font-family:courier new;
+font-size:25px;
+font-weight:bold;
+text-align:center;
+text-decoration:none;
+}
+
+a:hover,a:active
+{
+
+color:#900000;
+font-style:italic;
+text-decoration:none;
+}
+
+
+/* BACKGROUND FOR ALL MY WEBPAGES*/
+body
+{
+
+background:url(bg.jpg) fixed center;
+
+background-size:100%;
+}
+
+
+
+div.container
+{
+border:dashed #900000 7px;
+height:auto;
+margin-left:19%;
+
+overflow:auto;
+padding:20px;
+width:60%;
+
+}
+
+hr
+{
+border-color:#B80000;
+border-width:3px;
+}
+
+/*PARAGRAPH DEFAULT AND FONT CLASSES*/
+p
+{
+color:black;
+font-family:courier new;
+font-size:21px;
+}
+.reg
+{
+color:black;
+text-align:center;
+}
+.title
+{
+color:black;
+font-size:30px;
+text-align:center;
+text-weight:bold;
+}
+
+/*FOR MY MOVING BANNER*/
+.rslides 
+{
+position:relative;
+list-style:none;
+overflow:hidden;
+width:100%;
+padding:0px;
+margin:0px;
+}
+.rslides li 
+{
+-webkit-backface-visibility:hidden;
+position:absolute;
+display:none;
+width:100%;
+left:0;
+top:0;
+}
+.rslides li:first-child 
+{
+position:relative;
+display:block;
+float:left;
+}
+.rslides img 
+{
+display:block;
+height:auto;
+float:left;
+width:100%;
+border:0px;
+}
